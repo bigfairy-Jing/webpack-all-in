@@ -1,0 +1,29 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo1-build": "webpack ./src/main.js",
+    "demo1-build2": "webpack --config ./build/webpack.config1.js",
+    "demo1-build3": "webpack --config ./build/webpack.config2.js",
+    "demo1-build4": "webpack --config ./build/webpack.config3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "css-loader": "^5.2.6",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss-loader": "^6.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
